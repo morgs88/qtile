@@ -41,7 +41,7 @@ via PyPI:
 
 .. code-block:: bash
 
-    pip install xcffib
+    pip3 install xcffib
 
 .. _xcffib: https://github.com/tych0/xcffib#installation
 
@@ -56,7 +56,7 @@ installed, you can use the latest version on PyPI:
 
 .. code-block:: bash
 
-    pip install --no-cache-dir cairocffi
+    pip3 install --no-cache-dir cairocffi
 
 .. _cairocffi: https://pythonhosted.org/cairocffi/overview.html
 
@@ -85,13 +85,13 @@ With the dependencies in place, you can now install qtile:
 
     git clone git://github.com/qtile/qtile.git
     cd qtile
-    pip install .
+    pip3 install .
 
 Stable versions of Qtile can be installed from PyPI:
 
 .. code-block:: bash
 
-    pip install qtile
+    pip3 install qtile
 
 As long as the necessary libraries are in place, this can be done at any point,
 however, it is recommended that you first install xcffib to ensure the
